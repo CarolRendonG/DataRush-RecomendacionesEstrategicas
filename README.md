@@ -1,49 +1,60 @@
 # Del Insight a la Acción: Reto de Recomendaciones Estratégicas
 
-<p align="center">
-  <img width="804" height="458" alt="Screenshot 2025-09-02 at 23 01 20"
-       src="https://github.com/user-attachments/assets/1a11c88d-c61c-4355-8ad7-ec95257e0e35" />
-</p>
+📌 Proyecto DataRush – Del insight a la acción
+Descripción
 
-### Objetivo:
-Aplicar conocimientos de EDA y visualización para detectar patrones relevantes en datos
-reales y convertirlos en recomendaciones claras para un equipo de negocios
+Este proyecto analiza el impacto de los feriados en la movilidad aérea a nivel global.
+A través de datasets históricos de pasajeros y calendarios de feriados, exploramos cómo las festividades nacionales e internacionales afectan el tráfico aéreo en distintos países y meses.
 
-Este repositorio contiene los **recursos necesarios** y servirá como espacio para subir las **soluciones de cada equipo**.
+Metodología
 
----
+Integración de datos: unificación de registros de vuelos mensuales y bases de feriados globales.
 
-## Estructura del repositorio
-```
-reto/
-│
-├── README.md                 # Instrucciones del reto y de uso del repositorio
-├── recursos/                 # Archivos de apoyo, datasets
-│   └── ...
-└── soluciones/               # Carpeta las soluciones cada equipo
-```
+Normalización: ajuste de cada país-año para medir el impacto relativo (%Δ frente al promedio anual).
 
-## Reglas de colaboración
+Análisis exploratorio (EDA): correlaciones, heatmaps y comparaciones año a año.
 
-1. **No modificar la rama `main`**.  
-2. **Cada equipo debe trabajar en su propia rama**: [véase flujo de trabajo](#flujo-de-trabajo-para-equipos)
-3. **Sube tus archivos únicamente dentro de tu carpeta en `soluciones/`**
-4. **No abrir Pull Requests** hacia `main`.  
-- Solo sube commits y pushes a tu rama.  
-- No hagas ningún PR hacia main ni otra rama de otro equipo.
+Insights clave:
 
-## Flujo de trabajo para equipos
+Los feriados domésticos generan los mayores picos en vuelos locales.
 
-En la temrinal:
-```bash
-git clone https://github.com/marielalvarez/DataRush-RecomendacionesEstrategicas # clona el repositorio
-git checkout -b nombre_equipo # crea tu rama del equipo
-# añade tus documentos y despues subelos a remoto:
-git add .
-git commit -m "Solución equipo X"
-git push origin equipo-nombre
+Los feriados internacionales son más estables y se alinean con temporadas globales.
 
-```
+Festividades móviles (como Semana Santa) desplazan la demanda entre meses.
 
-¡Éxito en el reto! 💡
--- Data Science Club at Tec
+El impacto es consistente año tras año.
+
+Resultados
+
+Correlaciones claras entre feriados y tráfico aéreo.
+
+Identificación de países con mayor/menor sensibilidad a los feriados.
+
+Recomendaciones estratégicas para empresas de aviación, turismo y marketing.
+
+Recomendaciones estratégicas
+
+Planificar promociones en torno a feriados domésticos.
+
+Ajustar oferta y precios en temporadas globales (ej. verano europeo, Golden Week).
+
+Anticipar cambios de fecha en festividades móviles.
+
+Diferenciar estrategias según mercado doméstico o internacional.
+
+Entregables
+
+📊 Código reproducible (Python, Jupyter Notebooks).
+
+📈 Visualizaciones (gráficos, heatmaps, mapas).
+
+📑 Presentación ejecutiva con hallazgos y recomendaciones.
+
+🎥 Video explicativo: disponible en un link público para revisión abierta.
+https://drive.google.com/file/d/1XuzLRPNmlX0ze5raQESsj0TRf2ntjsvj/view?usp=sharing
+
+Equipo
+
+Carol Rendón
+
+Eydan Peña
